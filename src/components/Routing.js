@@ -20,29 +20,29 @@ import EditOffer from './adminDashboard/EditOffer';
 const Routing = () => {
   return (
     <div>
-        <Routes>
-            <Route path="/" element={<Home/>} />
-            <Route path='/about' element={<About />} />
-            <Route path='/services' element={<Services />} />
-            <Route path='/bookaService' element={<BookAService />} />
-            <Route path='/offers' element={<Offers />} />
-            <Route path='/contactUs' element={<ContactUs />} />
-            <Route path='/OnClickServiceBooking/:serviceId' element={<OnClickServiceBooking/>} />
-            <Route path='*' element={<NoPage />} />
-            <Route path='/admin' element={<Admin />} />
-            <Route path='/adminPanel' element={<AdminPanel/>} >
-              <Route path='' element={<ServiceCRUD/>}>
-                <Route path='' element={<AddService/>} />
-                <Route path='editService/:serviceId' element={<EditService/>} />
-              </Route>
-              <Route path='offersCrud' element={<OffersCRUD/>}>
-                <Route path='' element={<AddOffer/>} />
-                <Route path='editOffer/:offerId' element={<EditOffer/>} />
-              </Route>
-            </Route>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path='/about' element={<About />} />
+        <Route path='/services' element={<Services />} />
+        <Route path='/bookaService' element={<BookAService />} />
+        <Route path='/offers' element={<Offers />} />
+        <Route path='/contactUs' element={<ContactUs />} />
+        <Route path='/OnClickServiceBooking/:serviceId' element={<OnClickServiceBooking />} />
+        <Route path='*' element={<NoPage />} />
+        <Route path='/admin' element={<Admin />} />
+        <Route path='/adminPanel' element={<AdminPanel />} >
+          <Route path='' element={<ServiceCRUD />}>
+            <Route path='' element={<AddService />} />
+          </Route>
+          <Route path='editService/:serviceId' element={<EditService />} />
+          <Route path='offersCrud' element={<OffersCRUD />}>
+            <Route path='' element={<AddOffer />} />
+            <Route path='editOffer/:offerId' element={<EditOffer />} />
+          </Route>
+        </Route>
 
-            
-        </Routes>
+
+      </Routes>
     </div>
   );
 }

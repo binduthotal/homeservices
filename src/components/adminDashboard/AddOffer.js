@@ -29,7 +29,7 @@ const AddOffer = () => {
                 setServiceId("")
                 setDescription("")
                 setExpirydate("")
-                // navigate("/adminPanel");
+                navigate("/adminPanel");
             })
             .catch((err) => alert("Error", err.msg));
     };
@@ -72,7 +72,7 @@ const AddOffer = () => {
                 </select>
 
                 <div>&nbsp;</div>
-               
+
                 <input
                     className="form-control"
                     type="text"

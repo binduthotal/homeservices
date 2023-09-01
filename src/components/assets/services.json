@@ -73,7 +73,6 @@
       "qoute": "Quick Home Repairs: Restoring Comfort with Speed and Skill."
     }
   ],
-
   "offers": [
     {
       "service": "Plumber",
@@ -85,7 +84,7 @@
     {
       "service": "House Deep Clean",
       "serviceId": "8",
-      "description": "Book a deep cleaning service and receive a complimentary air freshener.",
+      "description": "Book a deep cleaning service and receive a complimentary air freshner .",
       "expiryDate": "2023-10-15",
       "id": 2
     },
@@ -104,7 +103,6 @@
       "id": 5
     }
   ],
-  
   "bookings": [
     {
       "serviceName": "Laptop Repair",
@@ -177,5 +175,4 @@
       "id": 8
     }
   ]
-
 }
