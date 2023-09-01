@@ -9,7 +9,7 @@ const Services = () => {
 
   useEffect(() => {
     axios
-        .get("http://localhost:4001/services")
+        .get("http://localhost:5000/services")
         .then((res) => {
             console.log(res.data);
             setServicesData(res.data);

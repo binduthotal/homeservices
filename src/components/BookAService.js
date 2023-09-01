@@ -88,7 +88,7 @@ const BookAService = () => {
       console.log("Success")
       // Data posting to bookings API
       axios
-        .post("http://localhost:5000/bookings", {
+        .post("http://localhost:4001/bookings", {
           serviceName,
           userName,
           email,

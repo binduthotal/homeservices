@@ -114,7 +114,7 @@ p {
 
 .body-container {
   width: 100%;
-  padding-bottom: 40px;
+  /* padding-bottom: 40px; */
   background-color: #e9ecef;
 }
 
@@ -154,6 +154,9 @@ p {
   justify-content: center;
 }
 
+.home-container{
+  padding-bottom: 40px;
+}
 .home-container .link{
   text-decoration: none;
 }
@@ -264,6 +267,9 @@ p {
   padding-bottom: 10px;
 }
 
+.aboutUs-container{
+  padding-bottom: 40px;
+}
 .aboutUs-container h2 {
   color: black;
   padding-top: 70px;
@@ -358,7 +364,7 @@ h3 {
 }
 
 h6 {
-  padding-top: 40px;
+  margin-top: 60px;
 }
 
 /**************************** Services  *****************************/
@@ -367,6 +373,9 @@ h6 {
   padding-top: 50px;
 }
 
+.service-container{
+  padding-bottom: 40px;
+}
 .service-list {
   background-color: #ffff;
   box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.3);
@@ -387,6 +396,9 @@ h6 {
 
 /**************************** Book A Service  *****************************/
 
+.book-container{
+  padding-bottom: 50px;
+}
 .book-container h5{
     color: #ffff;
 }
@@ -462,6 +474,10 @@ h6 {
 }
 
 /**************************** Offers  *****************************/
+
+.offers-container{
+  padding-bottom: 50px;
+}
 .offers-container .row{
   padding-top: 50px;
   margin:auto
@@ -495,6 +511,9 @@ h6 {
 }
 /************************** Contact Us  *****************************/
 
+.contact-container{
+  padding-bottom: 50px;
+}
 .contact-container .container{
   margin-top: 50px ;
   padding: 20px;
@@ -523,6 +542,110 @@ h6 {
 }
 
 
+/************************** Admin Login  *****************************/
+
+.admin-container{
+  background-color: #e9ecef;
+  text-align: center;
+  width: 100%;
+}
+
+.admin-container p{
+  font-size: 35px;
+  font-weight: 500;
+  color: #023b6d;
+}
+.login {
+padding-top: 5%;
+padding-bottom: 10%;
+}
+
+.login-form{
+  padding: 20px;
+  width: 25%;
+  margin: auto;
+  border: 3px solid #023b6d;
+}
+
+.login-form  input{
+  margin-top: 20px;
+}
+
+/************************** Side Bar  *****************************/
+.SideBar ul{
+  list-style-type: none;
+  padding-left: 0;
+}
+.SideBar ul li a{
+  color: black;
+}
+
+.SideBar ul li{
+  padding: 10px;
+  border: 2px solid #023b6d;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.SideBar ul li:active{
+  font-weight: 500;
+  background-color: #023b6d;
+  color: white;
+}
+
+.SideBar{
+  width: 50%;
+  text-align: center;
+  margin: auto;
+}
+
+/************************** Dashboard  *****************************/
+
+.dashboard{
+  text-align: left;
+  width: 90%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #023b6d;
+    padding-bottom: 20px;
+}
+
+.crud-links{
+  padding: 20px;
+  border-bottom: 2px solid #023b6d;
+  width: 100%;
+  border-radius: 0;
+
+}
+.crud-links .btn{
+  margin-right: 40px;
+  font-size: 20px;
+}
+
+caption{
+  text-align: center;
+  font-size: 25px;
+  font-weight: 400;
+  color: #023b6d;
+}
+
+.data-display{
+  margin-top: 20px;
+}
+
+.add-form{
+  width: 60%;
+  margin: auto;
+}
+
+.add-form h3{
+  text-align: center;
+}
+
+.add-form .btn{
+  margin: auto;
+}
 /************************** @meadia  *****************************/
 
 @media (max-width: 567px) {

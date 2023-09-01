@@ -1,78 +1,76 @@
 {
-    "services": [
-        {
-            "id": 1,
-            "name":"Carpenter",
-            "description": "At Home Services, we celebrate the art of carpentry as a fusion of creativity, expertise, and passion. Our carpenters are not just skilled professionals; they are artists who carve your dreams into reality. Experience the joy of craftsmanship with us, and let us bring your spaces to life, one meticulous stroke at a time.",
-            "qoute": "Crapentry: Elevating Spaces with Exquisite Carpentry Craftsmanship."
-        },
-        {
-            "id": 2,
-            "name":"Plumber",
-            "description":"At Home Services, we understand that a well-functioning plumbing system is integral to your daily life. Our plumbers are dedicated to creating a comfortable living environment by providing efficient solutions that keep your water flowing, your drains clear, and your home free from plumbing-related worries.",
-            "qoute":"Plumbing: Navigating the Fluidity of Home Comfort"
-        },
-        {
-            "id": 3,
-            "name":"Painter",
-            "description":"At Home Services, we understand the importance of personal spaces. Our painters respect your home, treating it with care and ensuring a tidy workspace. We aim to leave behind not just stunning walls but also an experience of professionalism and respect.",
-            "qoute":"Painting: Illuminating Spaces with Color and Creativity."
-        },
-        {
-            "id": 4,
-            "name":"Electrician",
-            "description":"Every home has unique electrical requirements, and that's where our electricians shine. We work closely with you to understand your needs, providing tailored solutions that address your concerns and enhance your electrical efficiency.",
-            "qoute":"Electrical Mastery: Illuminating Your Spaces, Safely and Efficiently."
-        },
-        {
-            "id": 5,
-            "name":"Ac Repair",
-            "description":"Your comfort is our priority. Our technicians are not just skilled professionals; they are courteous and respectful individuals who ensure a hassle-free experience from start to finish",
-            "qoute":"AC Repairs: Restoring Cool Comfort, One Fix at a Time."
-        },
-        {
-            "id": 6,
-            "name":"Appliances Fixing/Repairs",
-            "description":"We understand that a functioning home is essential. Our technicians are not just experts; they are committed to ensuring your convenience, offering hassle-free repairs that fit seamlessly into your schedule.",
-            "qoute":"Appliance Repairs: Restoring Convenience, One Fix at a Time."
-        },
-        {
-            "id": 7,
-            "name":"Laptop Repair",
-            "description":"Our laptop repair services cover a wide range of issues, from hardware replacements to software troubleshooting. Whether it's a broken screen, a malfunctioning keyboard, or a virus-infected system, we've got you covered.",
-            "qoute":"Laptop Repair: Unleashing Digital Resilience, One Fix at a Time."
-        },
-        {
-            "id": 8,
-            "name":"House Deep Clean",
-            "description": "Deep cleaning involves a comprehensive and thorough cleaning of every nook and cranny of your home. Unlike regular cleaning, which focuses on surface-level tidying, deep cleaning reaches hidden spots, sanitizes neglected areas, and eliminates accumulated grime. It's the perfect solution for reviving your home's hygiene and appearance.",
-            "qoute": "Book your deep clean now and unlock the true potential of your home's cleanliness."
-            
-        },
-        {
-            "id": 9,
-            "name":"Kitchen Deep Clean",
-            "description":"At Home Services, we believe that a clean kitchen is the cornerstone of joyful cooking. Let our cleaning experts be your partners in revitalizing your culinary haven, allowing you to create meals that nourish both body and soul.",
-            "qoute":"Kitchen Deep Clean: Igniting Culinary Passion with Every Gleaming Surface."
-        },
-        {
-            "id": 10,
-            "name":"Pest Control",
-            "description":"Preventing pests is as important as eliminating them. Our experts not only address current infestations but also provide advice on how to prevent future pest issues through proper sanitation and maintenance.",
-            "qoute":"Pest Control: Restoring Sanctuary, One Pest at a Time."
-        },
-        {
-            "id": 11,
-            "name":"Bathroom Cleaning",
-            "description":"From faucets to showerheads, every fixture is meticulously cleaned to restore functionality and enhance aesthetics. Our attention to detail extends to every element that makes your bathroom complete.",
-            "qoute":"Bathroom Cleaning: Transforming Your Space into a Haven of Cleanliness and Comfort."
-        },
-        {
-            "id": 12,
-            "name":"Home Quick Repairs",
-            "description":"Timely repairs are essential for maintaining the value of your home. Our services go beyond fixing issues; they contribute to the overall condition and appeal of your living spaces.",
-            "qoute":"Quick Home Repairs: Restoring Comfort with Speed and Skill."
-        }
-        
-    ]
+  "services": [
+    {
+      "name": "Carpenter",
+      "description": "At Home Services, we take pride in our craftsmanship and dedication to transforming your spaces into works of art. With years of experience in the carpentry industry, our team of skilled carpenters is ready to bring your vision to life.",
+      "qoute": "In the world of carpentry, every piece of wood tells a story of skill, dedication, and craftsmanship.",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "name": "Plumber",
+      "description": "At Home Services, we understand that a well-functioning plumbing system is integral to your daily life. Our plumbers are dedicated to creating a comfortable living environment by providing efficient solutions that keep your water flowing, your drains clear, and your home free from plumbing-related worries.",
+      "qoute": "Plumbing: Navigating the Fluidity of Home Comfort"
+    },
+    {
+      "id": 3,
+      "name": "Painter",
+      "description": "At Home Services, we understand the importance of personal spaces. Our painters respect your home, treating it with care and ensuring a tidy workspace. We aim to leave behind not just stunning walls but also an experience of professionalism and respect.",
+      "qoute": "Painting: Illuminating Spaces with Color and Creativity."
+    },
+    {
+      "id": 4,
+      "name": "Electrician",
+      "description": "Every home has unique electrical requirements, and that's where our electricians shine. We work closely with you to understand your needs, providing tailored solutions that address your concerns and enhance your electrical efficiency.",
+      "qoute": "Electrical Mastery: Illuminating Your Spaces, Safely and Efficiently."
+    },
+    {
+      "id": 5,
+      "name": "Ac Repair",
+      "description": "Your comfort is our priority. Our technicians are not just skilled professionals; they are courteous and respectful individuals who ensure a hassle-free experience from start to finish",
+      "qoute": "AC Repairs: Restoring Cool Comfort, One Fix at a Time."
+    },
+    {
+      "id": 6,
+      "name": "Appliances Fixing/Repairs",
+      "description": "We understand that a functioning home is essential. Our technicians are not just experts; they are committed to ensuring your convenience, offering hassle-free repairs that fit seamlessly into your schedule.",
+      "qoute": "Appliance Repairs: Restoring Convenience, One Fix at a Time."
+    },
+    {
+      "id": 7,
+      "name": "Laptop Repair",
+      "description": "Our laptop repair services cover a wide range of issues, from hardware replacements to software troubleshooting. Whether it's a broken screen, a malfunctioning keyboard, or a virus-infected system, we've got you covered.",
+      "qoute": "Laptop Repair: Unleashing Digital Resilience, One Fix at a Time."
+    },
+    {
+      "id": 8,
+      "name": "House Deep Clean",
+      "description": "Deep cleaning involves a comprehensive and thorough cleaning of every nook and cranny of your home. Unlike regular cleaning, which focuses on surface-level tidying, deep cleaning reaches hidden spots, sanitizes neglected areas, and eliminates accumulated grime. It's the perfect solution for reviving your home's hygiene and appearance.",
+      "qoute": "Book your deep clean now and unlock the true potential of your home's cleanliness."
+    },
+    {
+      "id": 9,
+      "name": "Kitchen Deep Clean",
+      "description": "At Home Services, we believe that a clean kitchen is the cornerstone of joyful cooking. Let our cleaning experts be your partners in revitalizing your culinary haven, allowing you to create meals that nourish both body and soul.",
+      "qoute": "Kitchen Deep Clean: Igniting Culinary Passion with Every Gleaming Surface."
+    },
+    {
+      "id": 10,
+      "name": "Pest Control",
+      "description": "Preventing pests is as important as eliminating them. Our experts not only address current infestations but also provide advice on how to prevent future pest issues through proper sanitation and maintenance.",
+      "qoute": "Pest Control: Restoring Sanctuary, One Pest at a Time."
+    },
+    {
+      "id": 11,
+      "name": "Bathroom Cleaning",
+      "description": "From faucets to showerheads, every fixture is meticulously cleaned to restore functionality and enhance aesthetics. Our attention to detail extends to every element that makes your bathroom complete.",
+      "qoute": "Bathroom Cleaning: Transforming Your Space into a Haven of Cleanliness and Comfort."
+    },
+    {
+      "id": 12,
+      "name": "Home Quick Repairs",
+      "description": "Timely repairs are essential for maintaining the value of your home. Our services go beyond fixing issues; they contribute to the overall condition and appeal of your living spaces.",
+      "qoute": "Quick Home Repairs: Restoring Comfort with Speed and Skill."
+    }
+  ]
 }

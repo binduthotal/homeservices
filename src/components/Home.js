@@ -6,7 +6,7 @@ import useCustomFetch from "./useCustomFetch";
 
 const Home = () => {
 
-  let servicesData = useCustomFetch("http://localhost:4001/services");
+  let servicesData = useCustomFetch("http://localhost:5000/services");
   let offersData = useCustomFetch("http://localhost:4000/offers");
 
   return (
@@ -77,7 +77,6 @@ const Home = () => {
 
       {/* 1st Booking Offer */}
       <div className="first-booking" >
-        {/* <img src={backgroundImg2} alt="" className="offer-img" /> */}
         <div className="booking-box">
           <p>10% off on first booking!!!</p>
           <p>Grab the deal!!!</p>

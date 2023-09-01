@@ -8,6 +8,14 @@ import Offers from './Offers';
 import ContactUs from './ContactUs';
 import NoPage from './NoPage';
 import OnClickServiceBooking from './OnClickServiceBooking';
+import AdminPanel from './adminDashboard/AdminPanel';
+import Admin from './adminDashboard/Admin';
+import ServiceCRUD from './adminDashboard/ServiceCRUD';
+import AddService from './adminDashboard/AddService';
+import EditService from './adminDashboard/EditService';
+import OffersCRUD from './adminDashboard/OffersCRUD';
+import AddOffer from './adminDashboard/AddOffer';
+import EditOffer from './adminDashboard/EditOffer';
 
 const Routing = () => {
   return (
@@ -21,6 +29,19 @@ const Routing = () => {
             <Route path='/contactUs' element={<ContactUs />} />
             <Route path='/OnClickServiceBooking/:serviceId' element={<OnClickServiceBooking/>} />
             <Route path='*' element={<NoPage />} />
+            <Route path='/admin' element={<Admin />} />
+            <Route path='/adminPanel' element={<AdminPanel/>} >
+              <Route path='' element={<ServiceCRUD/>}>
+                <Route path='' element={<AddService/>} />
+                <Route path='editService/:serviceId' element={<EditService/>} />
+              </Route>
+              <Route path='offersCrud' element={<OffersCRUD/>}>
+                <Route path='' element={<AddOffer/>} />
+                <Route path='editOffer/:offerId' element={<EditOffer/>} />
+              </Route>
+            </Route>
+
+            
         </Routes>
     </div>
   );
