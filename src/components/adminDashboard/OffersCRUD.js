@@ -6,7 +6,7 @@ import { NavLink, Outlet } from 'react-router-dom';
 const OffersCRUD = () => {
 
     let offersData = useCustomFetch("http://localhost:4000/offers");
-    let serviceData = useCustomFetch("http://localhost:5000/services");
+    let serviceData = useCustomFetch("http://localhost:4000/services");
 
     const deleteOffer = (id) => {
         if (!window.confirm("Are you sure you want to delete")) {

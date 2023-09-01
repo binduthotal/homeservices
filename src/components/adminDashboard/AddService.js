@@ -13,7 +13,7 @@ const AddService = () => {
     const postData = (e) => {
         e.preventDefault();
         axios
-            .post("http://localhost:5000/services", { name, description, qoute })
+            .post("http://localhost:4000/services", { name, description, qoute })
             .then((res) => {
                 alert("Data added Successfully !");
                 setName("");
@@ -27,7 +27,7 @@ const AddService = () => {
     return (
             <div className="col-12">
                 <form onSubmit={postData} className='add-form'>
-                    <h3>Add Data</h3>
+                    <h3>Add Service Data</h3>
                     <input
                         className='form-control'
                         type="text"

@@ -6,7 +6,7 @@ import useCustomFetch from "./useCustomFetch";
 
 const Home = () => {
 
-  let servicesData = useCustomFetch("http://localhost:5000/services");
+  let servicesData = useCustomFetch("http://localhost:4000/services");
   let offersData = useCustomFetch("http://localhost:4000/offers");
 
   return (

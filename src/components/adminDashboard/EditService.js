@@ -5,6 +5,7 @@ import axios from 'axios';
 const EditService = () => {
 
     const { serviceId } = useParams();
+    
     const [name, setName] = useState("");
     const [description, setDescription] = useState("");
     const [qoute, setQoute] = useState("");
@@ -12,7 +13,7 @@ const EditService = () => {
 
     useEffect(() => {
         axios
-            .get(`http://localhost:5000/services/${serviceId}`)
+            .get(`http://localhost:4000/services/${serviceId}`)
             .then((response) => {
                 setName(response.data.name)
                 setDescription(response.data.description);
@@ -24,7 +25,7 @@ const EditService = () => {
     const updateData = (e) => {
         e.preventDefault();
         axios
-            .put(`http://localhost:5000/services/${serviceId}`, { name, description, qoute })
+            .put(`http://localhost:4000/services/${serviceId}`, { name, description, qoute })
             .then((response) => {
                 alert("Data updated Successfully !");
                 navigate('/adminPanel')

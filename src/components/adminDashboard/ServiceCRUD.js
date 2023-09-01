@@ -5,7 +5,7 @@ import axios from 'axios';
 
 const ServiceCRUD = () => {
 
-    let serviceData = useCustomFetch("http://localhost:5000/services");
+    let serviceData = useCustomFetch("http://localhost:4000/services");
     
     const deleteService = (id) => {
         if(!window.confirm("Are you sure you want to delete"))
@@ -15,7 +15,7 @@ const ServiceCRUD = () => {
         else
         {
         axios
-            .delete(`http://localhost:5000/services/${id}`)
+            .delete(`http://localhost:4000/services/${id}`)
             .then((response) => {
                 alert(`Data with Id ${id} deleted Successfully !`);
                 window.location.reload();

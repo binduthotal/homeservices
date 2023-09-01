@@ -21,7 +21,7 @@ const OnClickServiceBooking = () => {
 
     useEffect(() => {
         axios
-            .get(`http://localhost:5000/services/${serviceId}`)
+            .get(`http://localhost:4000/services/${serviceId}`)
             .then((res) => {
                 console.log(res.data);
                 setId(res.data.id);
@@ -98,7 +98,7 @@ const OnClickServiceBooking = () => {
             console.log("Success");
             // Data posting to bookings API
             axios
-                .post("http://localhost:4001/bookings", {
+                .post("http://localhost:4000/bookings", {
                     serviceName,
                     userName,
                     email,

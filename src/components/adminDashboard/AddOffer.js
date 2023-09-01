@@ -10,7 +10,7 @@ const AddOffer = () => {
     const [description, setDescription] = useState("");
     const [expiryDate, setExpirydate] = useState("");
 
-    let serviceData = useCustomFetch("http://localhost:5000/services");
+    let serviceData = useCustomFetch("http://localhost:4000/services");
 
     const navigate = useNavigate();
 
