@@ -4,14 +4,17 @@ import { useNavigate, useParams } from "react-router-dom";
 import "font-awesome/css/font-awesome.min.css";
 import axios from "axios";
 
-const OnClickServiceBooking = () => {
+
+const OnClickServiceBooking = (props) => {
+
     const { serviceId } = useParams();
+
     const navigate = useNavigate();
 
-    const [id, setId] = useState();
-    const [serviceName, setServiceName] = useState();
-    const [description, setDescription] = useState();
-    const [qoute, setQuote] = useState();
+    const [id, setId] = useState("");
+    const [serviceName, setServiceName] = useState("");
+    const [description, setDescription] = useState("");
+    const [qoute, setQuote] = useState("");
 
     const [userName, setUserName] = useState("");
     const [email, setEmail] = useState("");
@@ -33,7 +36,7 @@ const OnClickServiceBooking = () => {
     }, []);
 
     const bookService = (e) => {
-        let a="", b="", c="", d="";
+        let a = "", b = "", c = "", d = "";
         e.preventDefault();
 
         // Form  Validation
@@ -46,7 +49,6 @@ const OnClickServiceBooking = () => {
             document.getElementById("nameId").innerHTML = "Please enter Name";
             a = 0;
         } else {
-            debugger
             if (userName.match(alphaExp)) {
                 document.getElementById("nameId").innerHTML = "";
                 a = 1;
@@ -112,6 +114,7 @@ const OnClickServiceBooking = () => {
                     navigate("/services");
                 })
                 .catch((err) => alert("Error: Booking UnSuccesssfull!"));
+
         }
     };
     return (

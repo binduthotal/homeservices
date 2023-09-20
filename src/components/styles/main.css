@@ -209,7 +209,7 @@ p {
   text-align: left;
   width: 50%;
   margin: auto;
-  line-break:strict;
+  line-break:auto;
   padding: 20px;
 }
 
@@ -339,7 +339,7 @@ h3 {
   padding: 10px 30px;
   padding-top: 20px;
   text-align: left;
-  line-break: anywhere;
+  line-break: auto;
 }
 
 .circle-text {
@@ -683,8 +683,9 @@ caption{
 
   .service-list{
     /* margin: auto; */
+    width: 90%;
   }
-  .service-desp-form-group{
+  .form-group{
     margin-top: 40px;
     width: 100%;
   }

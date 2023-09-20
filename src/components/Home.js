@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { NavLink } from "react-router-dom";
-import { backgroundImg1, backgroundImg2 } from "./images";
+import { backgroundImg1 } from "./images";
 import axios from "axios";
 import useCustomFetch from "./useCustomFetch";
 

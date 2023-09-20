@@ -1,11 +1,9 @@
 import React from "react";
 import { breadcrumbImg1, breadcrumbImg2, img1 } from "./images";
 import { NavLink } from "react-router-dom";
-// import { Breadcrumbs, Link, Typography } from "@mui/material";
 import ConstructionIcon from "@mui/icons-material/Construction";
 import VerifiedIcon from "@mui/icons-material/Verified";
 import AccessTimeIcon from "@mui/icons-material/AccessTime";
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import BreadCrumbs from "./BreadCrumbs";
 
 const About = () => {
